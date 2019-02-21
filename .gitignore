@@ -1,0 +1,9 @@
+**/target/**
+**/out/**
+**/.idea/**
+**/MyMQTT_Test/**
+**/DockerDeploy/**
+*.war
+*.apk
+*.class
+*.psd

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">رستوران</string>
+
+    <string name="navigation_drawer_open">باز کردن منو</string>
+    <string name="navigation_drawer_close">بستن منو</string>
+
+    <string name="action_settings">تنظیمات</string>
+    <string name="drawer_open">منو بازکن</string>
+    <string name="drawer_close">منو ببند</string>
+
+    <string-array name="drawer_item_names">
+        <item>رزرو میز</item>
+      </string-array>
+
+
+
+    <string name="numberOfTablesFound">7 مورد یافت شد</string>
+
+    <string name="noConnection">ارتباط با سرور برقرار نشد</string>
+
+    <string name="isReserved"> میز مورد نظر رزور شد، لطفا غذای مورد نظر خود را انتخاب کنید</string>
+
+    <string name="clockStarted">حالا شما بیست دقیقه فرصت برای نهایی کردن خرید فرصت دارید</string>
+
+
+    <string name="date_time_show_dialog">تاریخ و ساعت</string>
+    <string name="chairs_filter_show_dialog">صندلی</string>
+
+    <string name="NumberOfChairs">چه تعداد صندلی نیاز دارید؟</string>
+    <string name="ChooseADate">تاریخ مورد نظر</string>
+    <string name="ChooseTheStartTime">زمان مورد نظر</string>
+    <string name="indoor">در فضای داخلی واقع شده باشد</string>
+    <string name="outdoor">در محیط باز واقع شده باشد</string>
+    <string name="alreadyATableIsBooked">شما در حال حاظر یک میز رزرو کرده اید، لطفا خرید خود را تکمیل کنید</string>
+    <string name="foodAddedToCart">غذای انتخاب شده به کارت اصافه شد؟؟؟؟</string>
+    <string name="isIndoor">در فضای ازاد واقع شده</string>
+    <string name="tableInformationInCartTitle">اطلاعات میز رزرو شده</string>
+    <string name="bookATableFirst">لطفا ابتدا یک میز رزرو کنید</string>
+    <string name="finilizeDeadlineReached">زمان شما برای نهایی کردن خرید به پایان رسید، لطفا دوباره میز رزرو کنید</string>
+    <string name="bookedTableCancelded">میز از حالت رزرو خارج شد و کارت؟ شما پاک شد. لطفا دوباره میز رزرو کنید</string>
+    <string name="title_activity_to_be_deleted">toBeDeleted</string>
+
+
+    <string name="minutesToFinalize">دقایق باقی مانده برای نهایی کردن خرید</string>
+
+
+    <string name="hourFilterLabel">ساعت</string>
+    <string name="minuteFilterLabel">دقیقه</string>
+    <string name="ok">حله</string>
+
+    <string name="numberPlease">لطفا یک عدد وارد کنید</string>
+
+    <string name="telephone">تلفن</string>
+    <string name="emailAddressLabel">رایانامه</string>
+
+    <string name="AddressLabel">آدرس</string>
+    <string name="AddressValue">ایران - اصفهان - خیابان بهار - پلاک 9</string>
+    <string name="telephoneNumber">03142223756</string>
+    <string name="emailAddress">restuarant@res.com</string>
+
+
+</resources>

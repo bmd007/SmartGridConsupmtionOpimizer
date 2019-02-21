@@ -1,0 +1,6 @@
+<resources>
+    <integer name="filtersNumberOfRows">3</integer>
+    <integer name="filtersNumberOfColumns">1</integer>
+
+    <integer name="numberOfColumnsInTableReserveRecyclerView">2</integer>
+</resources>

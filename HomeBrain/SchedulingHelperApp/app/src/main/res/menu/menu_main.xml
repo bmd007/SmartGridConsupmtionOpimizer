@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ir.tiroon.schedulingApp.MainActivity">
+
+    <item
+        android:id="@+id/login_menu"
+        android:orderInCategory="9"
+        android:title="Sing IN"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/language_menu_persian"
+        android:icon="@drawable/iran"
+        android:orderInCategory="2"
+        android:title="فا"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+
+    <item
+        android:id="@+id/language_menu_english"
+        android:icon="@drawable/english"
+        android:orderInCategory="2"
+        android:title="En"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/action_drawer"
+        android:icon="@drawable/ic_drawer"
+        android:orderInCategory="11"
+        android:title="MENU"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/speak_permission_menu"
+        android:icon="@drawable/speak"
+        android:title="speak/mute"
+        app:showAsAction="always"
+        android:visible="false" />
+
+
+</menu>

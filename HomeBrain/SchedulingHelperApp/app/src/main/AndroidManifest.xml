@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="schedulingApp.tiroon.ir">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:configChanges="layoutDirection|locale">
+        <meta-data
+            android:name="DATABASE"
+            android:value="deviceDB.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="ir.tiroon.schedulingApp.Model" />
+
+        <!-- BroadcastReceiver that starts MqttConnectionManagerService on device boot -->
+        <receiver android:name="ir.tiroon.schedulingApp.BroadCastReceiver.MqttServiceStartReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="ir.tiroon.schedulingApp.MainActivity" android:configChanges="layoutDirection|locale"/>
+        <activity android:name="ir.tiroon.schedulingApp.DeviceShowActivity" android:configChanges="layoutDirection|locale"/>
+        <activity android:name="ir.tiroon.schedulingApp.SplashScreen" android:configChanges="layoutDirection|locale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="ir.tiroon.schedulingApp.Services.MQTTService" android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ir.tiroon.schedulingApp.MainActivity">
+
+
+    <item
+        android:id="@+id/deleteDevice"
+        android:orderInCategory="10"
+        android:icon="@drawable/home"
+        android:title="Delete It"
+        app:showAsAction="always" />
+
+
+</menu>
